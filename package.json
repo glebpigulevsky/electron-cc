@@ -1,0 +1,14 @@
+{
+  "name": "shoppinglist-electron",
+  "version": "1.0.0",
+  "description": "electron cc",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "glebpigulevsky",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^14.0.0"
+  }
+}
