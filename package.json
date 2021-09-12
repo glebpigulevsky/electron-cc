@@ -4,11 +4,15 @@
   "description": "electron cc",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "publish": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=icon.icns --prune=true --out=release-builds"
   },
   "author": "glebpigulevsky",
   "license": "ISC",
   "dependencies": {
     "electron": "^14.0.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^15.4.0"
   }
 }
